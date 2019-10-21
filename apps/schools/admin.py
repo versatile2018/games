@@ -1,3 +1,8 @@
 from django.contrib import admin
 
-# Register your models here.
+from apps.schools.models import login
+
+admin.site.register(login)
+
+
+
